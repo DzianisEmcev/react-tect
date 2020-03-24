@@ -36,25 +36,24 @@
   flex-direction: column;
   background-color: #282c34;
   width: 450px;
-  height: 700px;
+  height: 600px;
 }
 
 .flex-container-header {
+  background-color: ivory;
   display: flex;
-  background-color: aliceblue;
-  padding: 40px;
-  margin: 20px;
+  padding: 70px;
 }
 
 .flex-container-body {
+  background-color: ivory;
   display: flex;
   flex-direction: column;
-  background-color: brown;
 }
 
 .flex-container-footer {
+  background-color: ivory;
   display: flex;
-  background-color: blueviolet;
   flex-direction: column;
 }
 
@@ -65,4 +64,10 @@
 .calendar-day {
   width: 60px;
   height: 40px;
+}
+
+.foot-button-faq {
+  background-color: ivory;
+  display: flex;
+  flex-direction: row;
 }
